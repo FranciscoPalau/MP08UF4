@@ -23,3 +23,43 @@ sudo apt-get install apache2
 ```
 ![Install apache 2](https://user-images.githubusercontent.com/114162326/206177895-39b2bdea-d2ca-41ff-a02b-0800cbc51b9d.png)
 
+### Instal·lació de MariaDB
+
+Una vegada instal·lat el servidor Apache 2, el que he fet ha sigut instal·lar la base de dades MariaDB, amb la següent comanda.
+
+```
+sudo apt-get install mariadb-server
+```
+![Instal Mariadb 1](https://user-images.githubusercontent.com/114162326/206178703-6ff0ffcb-bd39-4ec1-afbf-3fc72ff0a888.png)
+
+Una vegada instal·lada la base de dades he executat la configuració de seguretat amb la següent comanda.
+
+```
+sudo mysql_secure_installation
+```
+![Install Mariadb 2](https://user-images.githubusercontent.com/114162326/206179117-80b01099-4cdc-4edb-9772-26ef55f71706.png)
+
+### Instal·lació PHP7.3
+
+Per a instal·lar PHP7.3 he utilitzat les següents comandes.
+
+```
+sudo apt-get install software-properties-common
+```
+![Install PHP 1](https://user-images.githubusercontent.com/114162326/206179818-155a796a-af83-400b-9e9a-4f353f36e2af.png)
+
+```
+sudo add-apt-repository ppa:ondrej/php
+```
+![Install PHP 2](https://user-images.githubusercontent.com/114162326/206180643-55258b40-4a46-4139-8f9f-86c25b7dc58a.png)
+
+```
+sudo apt-get update
+```
+![Install PHP 3](https://user-images.githubusercontent.com/114162326/206181151-8bdeeb80-84ba-40b1-bc67-9ff2475cf6a6.png)
+
+```
+sudo aptr-get install -y php7.3
+```
+![Install PHP4](https://user-images.githubusercontent.com/114162326/206181273-ac60b748-8dd9-48f1-8c57-ab83d4037e9d.png)
+
