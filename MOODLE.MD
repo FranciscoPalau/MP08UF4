@@ -5,6 +5,18 @@ Primer que tot el que necessites és una màquina virtual amb Ubuntu server 22.0
 ![Moodle ](https://user-images.githubusercontent.com/114162326/206173667-4177f795-a197-43b5-bc8b-8b7a2e05b02e.png)
 ![Moodle AP](https://user-images.githubusercontent.com/114162326/206173683-1abf05ea-677e-4696-8b0e-ad067003cb16.png)
 
+### SSH
+
+Per a poder posar les comandes d'una manera més còmoda, el que he fet ha sigut connectar-me per SSH a la màquina virtual amb l'Ubuntu server.
+
+```
+ssh (nom_de_usuari)@(Ip_de_la_maquina)
+```
+![ssh 1](https://user-images.githubusercontent.com/114162326/206188967-fe294b30-9aaa-48d5-817b-ca216dcab6ec.png)
+
+Tot seguit em demanara la contraseña.
+![ssh 2](https://user-images.githubusercontent.com/114162326/206189565-8a8a1ba9-233b-4751-ac94-adee0f833205.png)
+
 ### Actualització dels paquets d'Ubuntu.
 
 Primer que tot el que he fet a sigut actualitzar el paquets d'Ubuntu, per a no tenir cap problema a l'hora de instal·lar tot el que necessitem per al Moodle.
@@ -62,4 +74,7 @@ sudo apt-get update
 sudo aptr-get install -y php7.3
 ```
 ![Install PHP4](https://user-images.githubusercontent.com/114162326/206181273-ac60b748-8dd9-48f1-8c57-ab83d4037e9d.png)
+
+### Instal·lació Moodle
+
 
