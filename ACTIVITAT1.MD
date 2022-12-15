@@ -141,7 +141,31 @@ FLUSH PRIVILEGES;
 
 ### Configuració del Moodle
 
-Primer que tot per poder configurar el Moodle, he hagut d'accedir-hi pel navegador web de la màquina real.
+Primer que tot hem demana que hi instali unes extensions de PHP.
+
+```
+sudo apt search php | grep curl
+sudo apt install php73-curl
+```
+![Install extencio curl](https://user-images.githubusercontent.com/114162326/207902534-e4209891-96d6-4c74-87af-54c5a6411987.png)
+
+```
+sudo apt search php | greb zip
+sudo apt install php7.3_zip
+```
+![Install extencion xmlrpc](https://user-images.githubusercontent.com/114162326/207902985-4e3402fa-b7fa-477f-9c15-ff91dd998305.png)
+
+```
+sudo apt-get isntall php7.3-xmlrpc
+```
+![Install extencion xmlrpc](https://user-images.githubusercontent.com/114162326/207903176-ec00cf74-7801-437f-834c-3b97c9474edc.png)
+
+```
+sudo apt-get install php7.3-mbstring
+```
+![Install extension mbstring](https://user-images.githubusercontent.com/114162326/207903331-822c7ba3-4b7d-434d-ad2a-5aa44f49331f.png)
+
+Despres d'instal·lar les extencions he hagut d'accedir-hi pel navegador web de la màquina real.
 ![Configurar Moodle 1](https://user-images.githubusercontent.com/114162326/207889505-2ead5433-4e4c-4cb6-9f5c-203ee7fbc56f.png)
 
 Tot seguit li he seleccionat l'idioma.
