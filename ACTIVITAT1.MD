@@ -110,7 +110,7 @@ sudo chown www-data:www-data moodledata/
 
 ### Configuració Base de Dades
 
-El primer que he fet per configurar la Base de Dades del Moodle a sigut obrirla amb la comandda.
+El primer que he fet per configurar la Base de Dades del Moodle ha sigut obrir-la amb la comanda.
 
 ```
 sudo mysql -u root -p
@@ -124,18 +124,17 @@ CREATE USER 'moodlemanager'@'localhost' IDENTIFIED Y 'managermoodle';
 ```
 ![Install Moodle 6](https://user-images.githubusercontent.com/114162326/207882041-8f1a94a5-a3e5-40f9-9a6f-51639a36013e.png)
 
-Despres he creat la Base de Dades per al Moodle
+Després he creat la Base de Dades per al Moodle
 
 ```
 CREATE DATABASE moodle;
 ```
 ![Install Moodle 7](https://user-images.githubusercontent.com/114162326/207882278-97ca7b1a-aaf5-4095-9f3d-648d78d84425.png)
 
-Una vegada creada la Base de Dades, li he donat permis al usuari que he creat abans
+Una vegada creada la Base de Dades, li he donat permís a l'usuari que he creat abans
 
 ```
 GRANT ALL PRIVILEGES ON moodle.* TO 'moodlemanager'@'localgost';
 FLUSH PRIVILEGES;
 ```
 ![Install Moodle 8](https://user-images.githubusercontent.com/114162326/207882703-9c5da2d0-b07b-410b-9490-30214990a42f.png)
-
