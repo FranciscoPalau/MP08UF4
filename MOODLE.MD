@@ -77,4 +77,34 @@ sudo aptr-get install -y php7.3
 
 ### Instal·lació Moodle
 
+Primer que tot he instal·lat la versió 4.1 de Moodle amb la següent comanda.
+
+```
+wget https://download.moodle.org/download.php/direct/stable401/moodle-4.1.zip
+```
+![Install Moodle 1](https://user-images.githubusercontent.com/114162326/207822446-243ac6be-0999-4bc4-9cac-34f00518e8c3.png)
+
+Tot seguit he descomprimit l'arxiu zip a la carpeta "/var/www/html/" amb la següent comanda.
+
+```
+sudo unzip moodle-4.1.zip.1 -d /var/www/html/
+```
+![Install Moodle 2](https://user-images.githubusercontent.com/114162326/207823556-881a1bb4-200c-4ed0-943a-4325d1781fb6.png)
+
+Després de descomprimir l'arxiu el que he fet ha sigut canviar el propietari
+
+```
+sudo chown www-data:www-data /var/www/htlm/moodle/
+```
+![Install Moodle 3](https://user-images.githubusercontent.com/114162326/207824210-7669f3af-3ab7-4fa0-8b3f-6d5590a3b4ed.png)
+
+He creat el directori per a guardar informacio dels usuaris al /home
+
+```
+sudo mkdir moodledata
+ls
+sudo chown www-data:www-data moodledata/
+```
+
+![Install Moodle 4](https://user-images.githubusercontent.com/114162326/207824739-7eaca3bc-4c37-4ee3-a50f-eeafb4b37afb.png)
 
