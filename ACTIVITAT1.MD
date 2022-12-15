@@ -117,24 +117,42 @@ sudo mysql -u root -p
 ```
 ![Install Moodle 5](https://user-images.githubusercontent.com/114162326/207881580-9592b240-1764-4e1a-a43b-6151ed0271ad.png)
 
-Tot seguit he creat l'usuari per a Moodle
+Tot seguit he creat l'usuari per a Moodle.
 
 ```
 CREATE USER 'moodlemanager'@'localhost' IDENTIFIED Y 'managermoodle';
 ```
 ![Install Moodle 6](https://user-images.githubusercontent.com/114162326/207882041-8f1a94a5-a3e5-40f9-9a6f-51639a36013e.png)
 
-Després he creat la Base de Dades per al Moodle
+Després he creat la Base de Dades per al Moodle.
 
 ```
 CREATE DATABASE moodle;
 ```
 ![Install Moodle 7](https://user-images.githubusercontent.com/114162326/207882278-97ca7b1a-aaf5-4095-9f3d-648d78d84425.png)
 
-Una vegada creada la Base de Dades, li he donat permís a l'usuari que he creat abans
+Una vegada creada la Base de Dades, li he donat permís a l'usuari que he creat abans.
 
 ```
 GRANT ALL PRIVILEGES ON moodle.* TO 'moodlemanager'@'localgost';
 FLUSH PRIVILEGES;
 ```
 ![Install Moodle 8](https://user-images.githubusercontent.com/114162326/207882703-9c5da2d0-b07b-410b-9490-30214990a42f.png)
+
+### Configuració del Moodle
+
+Primer que tot per poder configurar el Moodle, he hagut d'accedir-hi pel navegador web de la màquina real.
+![Configurar Moodle 1](https://user-images.githubusercontent.com/114162326/207889505-2ead5433-4e4c-4cb6-9f5c-203ee7fbc56f.png)
+
+Tot seguit li he seleccionat l'idioma.
+![Configurar Moodle 2](https://user-images.githubusercontent.com/114162326/207889674-8ab960d2-3d07-4120-a759-caf7b24fc566.png)
+
+Una vegada posat l'idioma he posat la ruta a la Base de Dades que he creat anteriorment per al Moodle.
+![Configurar moodle 3](https://user-images.githubusercontent.com/114162326/207890066-7502daf3-ec40-45e0-be8a-871fdc5399b5.png)
+
+A continuació li he seleccionat la Base de Dades que hi havia instal·lat abans.
+![Configurar Moodle 4](https://user-images.githubusercontent.com/114162326/207890429-1f7739cc-4b29-4527-b1fd-45246f2f316e.png)
+
+Finalment, li he adjuntat la resta de la informació sobre la Base de Dades.
+![Configurar Moodle 5](https://user-images.githubusercontent.com/114162326/207890881-0acbb2b2-e603-4f6a-8087-9431dadb7b02.png)
+
