@@ -49,10 +49,15 @@ Dins de Moodle hi ha diferents tipus d'usuaris:
 
 #### 6. Fes que Cognom_1_profe sigui professor dels cursos: MP04, MP12, MP08 i MP07.
 
+![Captura de 2023-01-23 18-59-06](https://user-images.githubusercontent.com/114162326/214115178-3824e73d-5399-4bbf-9fc3-a621554f03c8.png)
 
 #### 7. Fes que Cognom_2_profe sigui professor dels cursos: MP10, MP06 i TUTORIA.
 
+![profe 2 cursos](https://user-images.githubusercontent.com/114162326/214116533-8402d9cc-bd6a-432c-997d-3832c34f5752.png)
+
 #### 8. Fes que Cognom_3_profe sigui professor de tots els cursos.
+
+![profe 3 cursos ](https://user-images.githubusercontent.com/114162326/214117069-68a37120-7a52-4d49-b3d5-7fd4b58651a9.png)
 
 #### 9. Afegeix a tots els alumnes a tots els cursos (els 5).
 
