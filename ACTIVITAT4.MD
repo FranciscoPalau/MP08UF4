@@ -20,10 +20,11 @@
 
 - Canvia el primer dia de la setmana del calendari a Diumenge.
 
+![image](https://user-images.githubusercontent.com/114162326/214376652-2c9c4a66-9d7d-4a1c-a4cc-39b514d352d4.png)
 
 - Fes que només els contactes de l'usuari puguin enviar-li missatges.
 
-
+![image](https://user-images.githubusercontent.com/114162326/214376517-0e312963-a183-436b-8202-055187832e7a.png)
 
 # Cursos:
 
