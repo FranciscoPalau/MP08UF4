@@ -34,7 +34,7 @@
 
 - Inscriu a tots els alumnes al curs.
 
-  ![image](https://user-images.githubusercontent.com/114162326/214379065-fdf50194-a16b-4d14-b650-1ebdf72f74d1.png)
+![image](https://user-images.githubusercontent.com/114162326/214379065-fdf50194-a16b-4d14-b650-1ebdf72f74d1.png)
 
 - Inscriu a tots els professors al curs.
 
@@ -42,27 +42,50 @@
 
 - Crea un fòrum general de dubtes (el d'anuncis no serveix).
 
+![image](https://user-images.githubusercontent.com/114162326/214777958-6fad9f9e-3784-47f1-92fb-574dd6bed8e4.png)
 
 - Fes que dos estudiants fassin consultes al fòrum.
 
+![image](https://user-images.githubusercontent.com/114162326/214779988-4977c655-9d0b-44a9-b3ce-3e5a9290a38f.png)
 
 - Contesta les preguntes amb un perfil de professor.
 
+![image](https://user-images.githubusercontent.com/114162326/214780037-87c30fe0-c0e4-49fb-8adc-f0e6169b389c.png)
 
 - Crea un tema anomenat "Fonaments de Python".
 
+![image](https://user-images.githubusercontent.com/114162326/214780797-c1b71306-c130-4f37-9935-854888b901ce.png)
 
 - Oculta la resta de temes del curs.
 
+![image](https://user-images.githubusercontent.com/114162326/214780929-7edef756-7598-49e0-89e4-93eee8edef43.png)
 
 - Dins del tema crea una tasca anomenada prova inicial amb 10 preguntes molt bàsiques sobre Python. Pots trobar info [aqui](https://www.w3schools.com/python/).
 - Fes que els alumnes contestin la tasca (mínim 3).
+
+![image](https://user-images.githubusercontent.com/114162326/214783291-219bebc9-e37a-4170-a2c3-b7ae83786001.png)
+
 - Qualifica la tasca de l'alumnat.
+
+![image](https://user-images.githubusercontent.com/114162326/214783803-674433f6-b85d-47f2-b935-c0d8ad66cbad.png)
+
 - Mostra les qualificacions de l'alumnat.
+
+![image](https://user-images.githubusercontent.com/114162326/214783530-e85c8ead-3cad-4886-9568-a31dd909919c.png)
+
 - Com a perfil d'alumne mostra la teva qualificació.
+
+![image](https://user-images.githubusercontent.com/114162326/214783966-593bb78c-12bb-4fe7-85b7-1999e2a022bc.png)
+
 - Crea una activitat de consulta amb una pregunta sobre què costa més a l'alumnat sobre el tema del curs amb 4 opcions.
+
+
 - Com a alumne/a contesta la consulta.
+
+
 - Com a professor mostra les contestacions de la consulta.
+
+
 
 # Seguretat del lloc:
 
